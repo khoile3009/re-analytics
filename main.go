@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/khoile3009/re-analytics/initializers"
+	"github.com/khoile3009/re-analytics/scrapper"
 )
 
 func init() {
@@ -12,5 +11,5 @@ func init() {
 }
 
 func main() {
-	fmt.Print("Start application")
+	scrapper.GetAllRedfinListing(78705)
 }
